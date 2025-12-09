@@ -1,4 +1,4 @@
-import { Prisma } from '@prisma/client'
+import { Prisma } from 'src/generated/prisma/client'
 
 //type predicate: dự đoán kiểu dữ liệu
 export function isUniqueConstraintPrismaError(error: any): error is Prisma.PrismaClientKnownRequestError {
